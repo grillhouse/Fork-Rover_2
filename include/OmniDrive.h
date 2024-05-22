@@ -4,6 +4,7 @@
 #include <ESP32MX1508.h>
 #include <ESP32Encoder.h>
 #include <PID_v1.h>
+#include "vecmath.h"
 
 class OmniDrive
 {
@@ -32,7 +33,7 @@ private:
     unsigned long _lastTime;
     float R; // Radius of the robot
     void printDebugInfo();
-    int adjustMotorOutput(int motorOutput, int min);
+    int adjustMotorOutput(int motorOutput, int _min);
 
     unsigned long _lastDebugTime;
 };

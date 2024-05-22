@@ -13,8 +13,8 @@ const int motor3A = 27;
 const int motor3B = 26;
 
 // Encoder pins
-const int encoder1A = 15;
-const int encoder1B = 2;
+const int encoder1A = 15;   //yellow
+const int encoder1B = 2;    //white
 const int encoder2A = 22;
 const int encoder2B = 23;
 const int encoder3A = 13;
